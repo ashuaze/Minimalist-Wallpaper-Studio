@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Clean Minimalism custom slider styling */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 2px;
+  background-color: #EEEEEE;
+  border-radius: 9999px;
+}
+
+.dark input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #2A2A2A;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #1A1A1A;
+  cursor: pointer;
+  margin-top: -5px;
+  border: 1.5px solid #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  transition: transform 0.1s ease;
+}
+
+.dark input[type="range"]::-webkit-slider-thumb {
+  background: #FFFFFF;
+  border: 1.5px solid #1A1A1A;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+  transform: scale(1.2);
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDD;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #333;
+}
+

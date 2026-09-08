@@ -1,0 +1,6 @@
+{
+  "name": "Minimalist Wallpaper Studio",
+  "description": "极简风格高清壁纸生成器，结合渐变、配色与几何美学，支持手机/平板/PC实时预览与超清4K导出。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
